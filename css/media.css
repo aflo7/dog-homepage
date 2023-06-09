@@ -1,0 +1,41 @@
+@media screen and (min-width: 800px) {
+    .content-two-bottom {
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 100px;
+        gap: 60px;
+    }
+
+    .content-one {
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .content-one {
+        width: 1200px;
+    }
+
+    .content-one-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        width: 1200px;
+    }
+    .nav-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-three {
+        font-size: 1.5rem;
+    }
+
+    .content-four {
+        margin: 60px 15px;
+        border-radius: 3px;
+    }
+}

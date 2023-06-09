@@ -1,0 +1,157 @@
+:root {
+    --clr-dark-blue: #1f2937;
+    --clr-light-blue: #3882f6;
+    --light-gray: #e5e7eb;
+    --clr-dark-gray: rgb(136, 136, 136);
+}
+
+.nav-wrapper {
+    background-color: var(--clr-dark-blue);
+}
+nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.right-nav {
+    display: flex;
+    gap: 10px;
+}
+
+
+.btn {
+    padding: 5px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: fit-content;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.sign-up-btn {
+    border: none;
+    background-color: var(--clr-light-blue);
+}
+
+.content-one-wrapper {
+    background-color: var(--clr-dark-blue);
+}
+.content-one {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 15px;
+}
+
+.content-one-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-one-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-image: url(../images/landscape-dog.jpeg);
+    background-size: cover;
+    background-position: top;
+  
+}
+
+.blue-box {
+    height: 180px;
+    border: 3px solid var(--clr-light-blue);
+    width: 180px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.content-two {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.content-two-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-two-bottom > div {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-three-wrapper {
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+}
+.content-two-header {
+    padding: 30px;
+    font-weight: bold;
+}
+.content-three {
+    padding: 70px 15px;
+    font-size: 1.5rem;
+    text-align: justify;
+    display: grid;
+    gap: 15px;
+    max-width: 800px;
+}
+p.content-three-author {
+    text-align: right;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    background-color: var(--clr-dark-blue);
+    color: white;
+    padding: 25px;
+}
+
+.content-four-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.content-four {
+    padding: 40px 15px;
+    color: white;
+    display: flex;
+    gap: 15px;
+    background-color: black;
+    background-color: var(--clr-light-blue);
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-up-btn-2 {
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+}
