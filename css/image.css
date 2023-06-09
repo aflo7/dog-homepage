@@ -7,22 +7,22 @@
 .blue-box.one {
     background-image: url(../images/dog1.jpeg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 .blue-box.two {
     background-image: url(../images/dog2.jpeg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 .blue-box.three {
     background-image: url(../images/dog3.jpeg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 .blue-box.four {
     background-image: url(../images/dog4.webp);
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
